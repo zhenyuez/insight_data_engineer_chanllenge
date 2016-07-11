@@ -79,6 +79,8 @@ for i in range(df.shape[0]):
         if t1>=60:
             print('case 2')
             time_lis=[]
+            edge_lis=[]
+            node_lis=[]
             time_lis.append((i,t))
         #when incoming time is between t_min and t_max, add this time
         if (t1 <=0) & (t2>=0):
