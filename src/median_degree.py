@@ -70,7 +70,7 @@ for i in range(df.shape[0]):
     t2=int((t-t_min).total_seconds())
 
     if i>0:    
-        #when incoming time is smaller than (t_min-60) sec, ignore this
+        #when incoming time is smaller than (t_max-60) sec, ignore this
         if t1<=-60:
             print('case 1')
             ctrl=False
